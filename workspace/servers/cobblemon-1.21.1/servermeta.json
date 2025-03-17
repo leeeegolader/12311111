@@ -5,14 +5,14 @@
     "name": "cobblemon (Minecraft 1.21.1)",
     "description": "cobblemon Running Minecraft 1.21.1 (Fabric v0.16.10)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "123",
+    "address": "",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": true,
-    "autoconnect": true
+    "mainServer": false,
+    "autoconnect": false
   },
   "fabric": {
     "version": "0.16.10"
