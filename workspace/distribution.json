@@ -13,15 +13,15 @@
       "description": "cobblemon Running Minecraft 1.21.1 (Fabric v0.16.10)",
       "icon": null,
       "version": "1.0.0",
-      "address": "123",
+      "address": "",
       "minecraftVersion": "1.21.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.16.10",
