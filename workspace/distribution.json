@@ -256,16 +256,6 @@
           }
         },
         {
-          "id": "com.cobblemon.mod:cobblemon:1.6.1+1.21.1@jar",
-          "name": "Cobblemon",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 120710175,
-            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Cobblemon-fabric-1.6.1+1.21.1.jar",
-            "MD5": "cefe6ab687c39e1a7fe9b2bf96b09188"
-          }
-        },
-        {
           "id": "us.timinc.mc.cobblemon.spawnnotification:cobblemon_spawn_notification:1.6-fabric-1.2.1@jar",
           "name": "Cobblemon Spawn Notification",
           "type": "FabricMod",
