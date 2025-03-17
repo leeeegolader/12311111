@@ -1,0 +1,889 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "cobblemon-1.21.1",
+      "name": "cobblemon (Minecraft 1.21.1)",
+      "description": "cobblemon Running Minecraft 1.21.1 (Fabric v0.16.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "123",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "42e87afa75c42e3dea8f7f251f03dc16",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/versions/1.21.1-fabric-0.16.10/1.21.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1082585,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/appleskin-fabric-mc1.21-3.0.6.jar",
+            "MD5": "a24c435e84973afd607e20395ecba19d"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/architectury-13.0.8-fabric.jar",
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4"
+          }
+        },
+        {
+          "id": "mod.linguardium:badgebox:1.0.0@jar",
+          "name": "Badge Box",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 64191,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/badgebox-fabric-1.2.5.jar",
+            "MD5": "b781c9483e53268b1e844ab20ee6ea40"
+          }
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:21.0.31@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 480194,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/balm-fabric-1.21.1-21.0.31.jar",
+            "MD5": "d917c34ca30ff4804a746368540e1a90"
+          }
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.1.0+mc1.20.4@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10279,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/blurserveraddress-1.1.0+mc1.20.4.jar",
+            "MD5": "b8f6099fed2c7b6464120586e67d1f92"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cardinal-components:6.1.2@jar",
+          "name": "Cardinal Components API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 229196,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cardinal-components-api-6.1.2.jar",
+            "MD5": "56b720554d1d0ac5efbac63d9099c8b3"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.13@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77157,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/chat_heads-0.13.13-fabric-1.21.jar",
+            "MD5": "9094aee66eeb210b33e685adcac6bbf0"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "generated.fabricmod:clumps:19.0.0.1@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20723,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Clumps-fabric-1.21.1-19.0.0.1.jar",
+            "MD5": "8715713c6b63565a5eafb4c925275035"
+          }
+        },
+        {
+          "id": "com.metacontent:cobbleboom:1.4@jar",
+          "name": "CobbleBoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39573,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobbleboom-fabric-1.4.jar",
+            "MD5": "1c16bf0fa7031a0288e6ae633ce203eb"
+          }
+        },
+        {
+          "id": "knowlogy.cobblemon:cobblemon_knowlogy:1.3.0@jar",
+          "name": "Cobblemon Knowlogy",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6038188,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemon_knowlogy-fabric-1.3.0-1.21.1.jar",
+            "MD5": "9974a5751bd2be8106cb29d2b80ce825"
+          }
+        },
+        {
+          "id": "com.cobblemon.cobblemonlegends:cobblemon_legends_reborn:3.0.0-fabric@jar",
+          "name": "Cobblemon Legends Untold Reborn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 192006,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Cobblemon_Legends_Reborn-3.0.0-fabric.jar",
+            "MD5": "97d450da6647c9aa0d1462bc8080c695"
+          }
+        },
+        {
+          "id": "kiwiapollo.cobblemonarmors:cobblemonarmors:1.4.0+1.6.1@jar",
+          "name": "Cobblemon Armors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13539675,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemon-armors-1.4.0+1.6.1.jar",
+            "MD5": "06366b07f09f0b921678a2989fc51878"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.capturexp:cobblemon_capturexp:1.6-fabric-1.0.0@jar",
+          "name": "Cobblemon Capture EXP",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12579,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemon-capturexp-1.6-fabric-1.0.0.jar",
+            "MD5": "ab8108b1854bb987391eab6223c2d12e"
+          }
+        },
+        {
+          "id": "com.cobblemon.mod:cobblemon:1.6.1+1.21.1@jar",
+          "name": "Cobblemon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120710175,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Cobblemon-fabric-1.6.1+1.21.1.jar",
+            "MD5": "cefe6ab687c39e1a7fe9b2bf96b09188"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.spawnnotification:cobblemon_spawn_notification:1.6-fabric-1.2.1@jar",
+          "name": "Cobblemon Spawn Notification",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80046,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemon-spawn-notification-1.6-fabric-1.2.1.jar",
+            "MD5": "ed7476ede64fc92df3b3b7f11d580fcb"
+          }
+        },
+        {
+          "id": "ca.landonjw:cobblemon-ui-tweaks:1.0.7@jar",
+          "name": "Cobblemon UI Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 64439,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemon-ui-tweaks-1.0.7.jar",
+            "MD5": "ca8cb2cd9524a22b0c3a643de544e602"
+          }
+        },
+        {
+          "id": "com.arcaryx:cobblemonintegrations:1.1.2@jar",
+          "name": "CobblemonIntegrations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 344435,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemonintegrations-fabric-1.21.1-1.1.2.jar",
+            "MD5": "0db0393b63af9b66d331211ccc2ee568"
+          }
+        },
+        {
+          "id": "dev.zanckor:cobblemonridingfabric:1.3.7@jar",
+          "name": "Cobblemon Riding Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57492,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/cobblemonridingfabric-1.3.7.jar",
+            "MD5": "2066b75758a1d680fee6ea2009989983"
+          }
+        },
+        {
+          "id": "ludichat.cobbreeding:cobbreeding:1.8.9@jar",
+          "name": "Cobbreeding",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 264035,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Cobbreeding-fabric-1.8.9.jar",
+            "MD5": "5e627be0c220f13d5953fa53d7525795"
+          }
+        },
+        {
+          "id": "ru.tpsd.eatinganimationmod:eatinganimationid:1.21+1.9.72@jar",
+          "name": "Eating Animation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1060520,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/eating-animation-1.21+1.9.72.jar",
+            "MD5": "316cf908b94d508f9f3490bafef39cfc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.115.2+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2400050,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/fabric-api-0.115.2+1.21.1.jar",
+            "MD5": "21a14c706b4ff7ab2f65d3dbd6803744"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.1+kotlin.2.1.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7107488,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar",
+            "MD5": "93f482c99cce35eeca5e1c974c936129"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.2-hotfix@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120709,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/ferritecore-7.0.2-hotfix-fabric.jar",
+            "MD5": "6d381efd51de1cbbdb8070d346f32555"
+          }
+        },
+        {
+          "id": "me.rufia:fightorflight:0.7.6@jar",
+          "name": "Cobblemon Fight or Flight Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1254353,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/fightorflight-fabric-0.7.6.jar",
+            "MD5": "ba90e23c095f3aef628db695ea434fd3"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.1.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 631046,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/ForgeConfigAPIPort-v21.1.3-1.21.1-Fabric.jar",
+            "MD5": "91ebf44e3e23f58c20db21178e5be6c8"
+          }
+        },
+        {
+          "id": "software.bernie:geckolib:4.7.5.1@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 623913,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/geckolib-fabric-1.21.1-4.7.5.1.jar",
+            "MD5": "f471eca698988c091f5d0245e1fc0dbc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.6.2+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 231478,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/ImmediatelyFast-Fabric-1.6.2+1.21.1.jar",
+            "MD5": "82f34256423eac56238a43f2dae887c9"
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.8.8@jar",
+          "name": "InvMove",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123324,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/InvMove-1.21-0.8.8-Fabric.jar",
+            "MD5": "974a9e1738a8c48395f057ae132f5b2e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:15.8.3+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 727893,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Jade-1.21.1-Fabric-15.8.3.jar",
+            "MD5": "1b7f3b60cb2eede2519cc9fff0ecb357"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:19.21.0.247@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1474082,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/jei-1.21.1-fabric-19.21.0.247.jar",
+            "MD5": "7712fb0beebc6692c4c1f35e45b8a6f3"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.40@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3414629,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/journeymap-fabric-1.21.1-6.0.0-beta.40.jar",
+            "MD5": "d73720e40d0dbda9a2f58f4a28f0ae36"
+          }
+        },
+        {
+          "id": "knowlogy.knowlogy:knowlogy:0.7.0@jar",
+          "name": "Knowlogy Book",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6091647,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/knowlogy-fabric-0.7.1-1.21.1.jar",
+            "MD5": "94dbf0513baa9823f63d873e15a60fdc"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.6.13+mc1.21@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 468100,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/koreanpatch-fabric-1.6.13+mc1.21.jar",
+            "MD5": "41432074750e4128c405012a1210dd83"
+          }
+        },
+        {
+          "id": "io.wispforest:lavender:0.1.15+1.21@jar",
+          "name": "Lavender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 539500,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/lavender-0.1.15+1.21.jar",
+            "MD5": "e90a129943f748e3bb964b97f2990f04"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.0+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 771768,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/lithium-fabric-0.15.0+mc1.21.1.jar",
+            "MD5": "319d83e396c1a1227bcb4451d79e3336"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.2+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 435763,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/modernfix-fabric-5.20.2+mc1.21.1.jar",
+            "MD5": "cb8f961ba03da7dd0208cded31f54871"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_more_cobblemonmoveanims:1.2@jar",
+          "name": "More Cobblemon Move Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 381745,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/more-cobblemon-move-anims-1.2.jar",
+            "MD5": "cacfc63402dc954fba0c4643b480370f"
+          }
+        },
+        {
+          "id": "me.justahuman:more_cobblemon_tweaks:1.0.3@jar",
+          "name": "MoreCobblemonTweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115435,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/MoreCobblemonTweaks-fabric-1.0.3.jar",
+            "MD5": "f28729db15cbcb2669c364f771e21257"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.12.15.1+1.21@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1179014,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/owo-lib-0.12.15.1+1.21.jar",
+            "MD5": "4b1e871b5035ff4a00cba4f38bfdd6ca"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.10.3+1.21@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5679810,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/PresenceFootsteps-1.10.3+1.21.jar",
+            "MD5": "b742dda5390c1ab16e18033cc8ef1ca2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:silk-all:1.10.7@jar",
+          "name": "Silk (All modules)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 875341,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/silk-all-1.10.7.jar",
+            "MD5": "482dfdb4ff2c8aef398217035b6a2079"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.0+mc1.21.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 373661,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+            "MD5": "a2aa3212fe6397f39984b8c9e840956a"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.9+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297415,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/sodium-fabric-0.6.9+mc1.21.1.jar",
+            "MD5": "65c26c015296f5651b9c623002f7a90b"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:10.1.16@jar",
+          "name": "Traveler's Backpack",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1291212,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/travelersbackpack-fabric-1.21.1-10.1.16.jar",
+            "MD5": "2c9690c775dd615e465488a1b1aa2a48"
+          }
+        },
+        {
+          "id": "de.miraculixx:veinminer:2.1.5@jar",
+          "name": "Veinminer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 222605,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/veinminer-fabric-2.1.5.jar",
+            "MD5": "9b3def69eaa77b14447be4b295e6af22"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:21.1.13@jar",
+          "name": "Waystones",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 859783,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/waystones-fabric-1.21.1-21.1.13.jar",
+            "MD5": "2b2931de783f86f933ed93cc1ff87a21"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.3+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1178732,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.6.3+1.21.1-fabric.jar",
+            "MD5": "9040e93aa09500158a79b8aa23a663ac"
+          }
+        },
+        {
+          "id": "com.b1n_ry:yigd:2.4.14@jar",
+          "name": "You're in Grave Danger",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 825073,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/youre-in-grave-danger-fabric-2.4.14.jar",
+            "MD5": "045f927b9b489bd128de0ed109b16657"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.21.1-Fabric-5.1.4@jar",
+          "name": "YUNG's API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1249620,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsApi-1.21.1-Fabric-5.1.4.jar",
+            "MD5": "3c86a30367d61f349f932fe422134b82"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.21.1-Fabric-4.1.5@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1033207,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterDesertTemples-1.21.1-Fabric-4.1.5.jar",
+            "MD5": "82e85b1ccffdee21474e98da32eefb02"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.21.1-Fabric-5.1.4@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 909660,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterDungeons-1.21.1-Fabric-5.1.4.jar",
+            "MD5": "dd05e407c3c2d2a0090eb713a15ac49a"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.21.1-Fabric-3.1.2@jar",
+          "name": "YUNG's Better End Island",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 522278,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterEndIsland-1.21.1-Fabric-3.1.2.jar",
+            "MD5": "2da207d7a870a25b73d6b0fb9b700618"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.21.1-Fabric-3.1.2@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 923910,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterJungleTemples-1.21.1-Fabric-3.1.2.jar",
+            "MD5": "3c582e76c9413e1af8fd2dcb6708779e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.21.1-Fabric-5.1.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 615927,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterMineshafts-1.21.1-Fabric-5.1.1.jar",
+            "MD5": "f537ac7481a2a6a3164082a93f8691af"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.21.1-Fabric-3.1.4@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 734613,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterNetherFortresses-1.21.1-Fabric-3.1.4.jar",
+            "MD5": "fdcffee634b8d9bdb0d08dad548793ef"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.21.1-Fabric-4.1.2@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1150417,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterOceanMonuments-1.21.1-Fabric-4.1.2.jar",
+            "MD5": "ab76527e9eb1c29375bdb70bca8f6dce"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.21.1-Fabric-5.1.3@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 587855,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBetterStrongholds-1.21.1-Fabric-5.1.3.jar",
+            "MD5": "d480ea480d47cf731cd00c39abfae160"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsbridges:1.21.1-Fabric-5.1.1@jar",
+          "name": "YUNG's Bridges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 261209,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/YungsBridges-1.21.1-Fabric-5.1.1.jar",
+            "MD5": "ec3a66c3e7c5f0b6dfa34d098529a431"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807934,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/fabricmods/required/Zoomify-2.14.2+1.21.1.jar",
+            "MD5": "bcde79e6db9ba2b4077f8b911d5b3aab"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/config/iris-excluded.json",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1485,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/config/sodium-extra-options.json",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 658,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 9343,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Cobblemon 3D Poké Rods 1.0.zip",
+          "name": "Cobblemon 3D Poké Rods 1.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 167546,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/resourcepacks/Cobblemon%203D%20Pok%C3%A9%20Rods%201.0.zip",
+            "MD5": "3f9942822210093cd9bed79ce3ae8a0c",
+            "path": "resourcepacks/Cobblemon 3D Poké Rods 1.0.zip"
+          }
+        },
+        {
+          "id": "Cobblemon Anime Poké ball SFX Pack v1.1 MC1.21.1.zip",
+          "name": "Cobblemon Anime Poké ball SFX Pack v1.1 MC1.21.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 981369,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/resourcepacks/Cobblemon%20Anime%20Pok%C3%A9%20ball%20SFX%20Pack%20v1.1%20MC1.21.1.zip",
+            "MD5": "c5a1d45c0928f70f1b805dccec4529a2",
+            "path": "resourcepacks/Cobblemon Anime Poké ball SFX Pack v1.1 MC1.21.1.zip"
+          }
+        },
+        {
+          "id": "Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip",
+          "name": "Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7418,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/resourcepacks/Cobblemon%20Classic%20Grass%20Pack%20v2.1%20MC1.21.1.zip",
+            "MD5": "e30036a0e8d49439568cfea37d9d9521",
+            "path": "resourcepacks/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip"
+          }
+        },
+        {
+          "id": "Cobblemon Interface v1.4.0 (1).zip",
+          "name": "Cobblemon Interface v1.4.0 (1).zip",
+          "type": "File",
+          "artifact": {
+            "size": 14077537,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/resourcepacks/Cobblemon%20Interface%20v1.4.0%20(1).zip",
+            "MD5": "229d95ca8b980b5c7469e488d0432c17",
+            "path": "resourcepacks/Cobblemon Interface v1.4.0 (1).zip"
+          }
+        },
+        {
+          "id": "Cobblemotion_v1.2.zip",
+          "name": "Cobblemotion_v1.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 868646,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/resourcepacks/Cobblemotion_v1.2.zip",
+            "MD5": "8058f89128baf36bd7017b17f4e60876",
+            "path": "resourcepacks/Cobblemotion_v1.2.zip"
+          }
+        },
+        {
+          "id": "Maxi's-JM+CM_Pixel.zip",
+          "name": "Maxi's-JM+CM_Pixel.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1860466,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/resourcepacks/Maxi's-JM+CM_Pixel.zip",
+            "MD5": "2c1123fd4781eb3b8962c000f101a605",
+            "path": "resourcepacks/Maxi's-JM+CM_Pixel.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip.txt",
+          "name": "ComplementaryUnbound_r5.4.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1416,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cobblemon-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip.txt",
+            "MD5": "c65268b38a56eda99176be2c669e0e39",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
