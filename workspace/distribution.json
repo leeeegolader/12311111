@@ -688,17 +688,6 @@
           }
         },
         {
-          "id": "CobbleSounds[Complete]_v1.3.5.zip",
-          "name": "CobbleSounds[Complete]_v1.3.5.zip",
-          "type": "File",
-          "artifact": {
-            "size": 501875269,
-            "url": "https://leeeegolader.github.io/12311111/workspace/servers/cob-1.20.1/files/resourcepacks/CobbleSounds[Complete]_v1.3.5.zip",
-            "MD5": "da92ad98066fe960603da328913d28e3",
-            "path": "resourcepacks/CobbleSounds[Complete]_v1.3.5.zip"
-          }
-        },
-        {
           "id": "emissive-cobblemon-ores.zip",
           "name": "emissive-cobblemon-ores.zip",
           "type": "File",
