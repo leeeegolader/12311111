@@ -1,0 +1,384 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "test-1.21.1",
+      "name": "chu (Minecraft 1.21.1)",
+      "description": "test Running Minecraft 1.21.1 (Fabric v0.16.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "c3aa9d2525e3a758da296af0ca409dde",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/versions/1.21.1-fabric-0.16.10/1.21.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://leeeegolader.github.io/12311111/workspace/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "eu.midnightdust:blur:5.0.0@jar",
+          "name": "Blur+ (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 92148,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/blur-fabric-5.0.0+1.21.jar",
+            "MD5": "76e44f341976b128c992f5f5f10d620a"
+          }
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.1.0+mc1.20.4@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10279,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/blurserveraddress-1.1.0+mc1.20.4.jar",
+            "MD5": "b8f6099fed2c7b6464120586e67d1f92"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.13@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77157,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/chat_heads-0.13.13-fabric-1.21.jar",
+            "MD5": "9094aee66eeb210b33e685adcac6bbf0"
+          }
+        },
+        {
+          "id": "com.ezzenix:chatanimation:1.0.6@jar",
+          "name": "ChatAnimation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 553941,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/chatanimation-1.0.6.jar",
+            "MD5": "2f2f27d257421c40ef46fd598917e5aa"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.21.1-1.3.8@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2956258,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/coroutil-fabric-1.21.1-1.3.8.jar",
+            "MD5": "10985dc4266677b6c603fe91e635bb30"
+          }
+        },
+        {
+          "id": "ru.tpsd.eatinganimationmod:eatinganimationid:1.21+1.9.72@jar",
+          "name": "Eating Animation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1060520,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/eating-animation-1.21+1.9.72.jar",
+            "MD5": "316cf908b94d508f9f3490bafef39cfc"
+          }
+        },
+        {
+          "id": "net.superkat:explosiveenhancement:1.3.2-1.21-1.21.1@jar",
+          "name": "Explosive Enhancement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 114621,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/explosive-enhancement-1.3.2-1.21-1.21.1.jar",
+            "MD5": "d62388d31b37989bab24d59b68f9d617"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.115.3+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2400059,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/fabric-api-0.115.3+1.21.1.jar",
+            "MD5": "88e904afee1e89f9f355856ac6ef523a"
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.8.8@jar",
+          "name": "InvMove",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123324,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/InvMove-1.21-0.8.8-Fabric.jar",
+            "MD5": "974a9e1738a8c48395f057ae132f5b2e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.41@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3414829,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/journeymap-fabric-1.21.1-6.0.0-beta.41.jar",
+            "MD5": "09d6a3eaa503a4d5af1f55aaadab08ec"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.12.10+1.21@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1130416,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/owo-lib-0.12.10+1.21.jar",
+            "MD5": "efa7f17810d5797fafd6747ea3a25d1d"
+          }
+        },
+        {
+          "id": "com.chailotl:particular:1.1.1+1.21@jar",
+          "name": "Particular",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 240308,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/particular-1.1.1+1.21.jar",
+            "MD5": "308738268533e2fc3d1d2ac6b6cc38fa"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.9+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297415,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/sodium-fabric-0.6.9+mc1.21.1.jar",
+            "MD5": "65c26c015296f5651b9c623002f7a90b"
+          }
+        },
+        {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.6@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 42373,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/status-effect-bars-1.0.6.jar",
+            "MD5": "7462cb4955d2567149d0b10bc0572d66"
+          }
+        },
+        {
+          "id": "generated.fabricmod:tooltipfix:1.1.1-1.20@jar",
+          "name": "ToolTip Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12432,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/tooltipfix-1.1.1-1.20.jar",
+            "MD5": "492430f451d89f7fe2d7b8410c9748ac"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.21.0-1.2.3@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 838220,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/fabricmods/required/watut-fabric-1.21.0-1.2.3.jar",
+            "MD5": "dbf1f27f26d46d0111a5cc3e33bb104b"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5211,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "SnC-RP_2.2.4.zip",
+          "name": "SnC-RP_2.2.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 17602696,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/resourcepacks/SnC-RP_2.2.4.zip",
+            "MD5": "e2bad6425d45e1cb92b20e64a45ac287",
+            "path": "resourcepacks/SnC-RP_2.2.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://leeeegolader.github.io/12311111/workspace/servers/test-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
